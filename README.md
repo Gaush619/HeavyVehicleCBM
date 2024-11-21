@@ -1,38 +1,23 @@
-# 🔧 Predictive Maintenance Dashboard
+# Predictive Maintenance Dashboard 🔧
 
-A **Streamlit** application designed for predictive maintenance, enabling users to forecast potential failures based on time series data and provide actionable maintenance insights. This app utilizes ARIMA forecasting and Remaining Useful Life (RUL) estimation to help maintain machinery health.
+This repository contains a **Streamlit-based Predictive Maintenance Dashboard** for monitoring and forecasting equipment health using time-series data. The tool provides actionable insights for reducing downtime and enhancing system reliability.
 
-## 📋 Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Data Format](#data-format)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## 🚀 Features
+## Features 🚀
 
-- **RUL Estimation**: Calculates Remaining Useful Life (RUL) for multiple parameters using threshold detection.
-- **ARIMA Forecasting**: Provides time series forecasting using the ARIMA model for selected parameters.
-- **Interactive Visualization**: Displays historical and forecasted data with threshold lines for easy identification of potential issues.
-- **Maintenance Recommendations**: Suggests specific maintenance actions based on parameter threshold crossings.
+- **Dynamic Data Upload:** Upload CSV files containing time-series data for analysis.
+- **Threshold Monitoring:** Detects parameter exceedances using predefined thresholds.
+- **Remaining Useful Life (RUL):** Estimates RUL for critical parameters.
+- **ARIMA Forecasting:** Uses `auto_arima` to forecast parameter trends and detect potential failures.
+- **Maintenance Actions:** Provides specific maintenance recommendations for exceeded thresholds.
+- **Interactive UI:** Built with Streamlit, featuring sliders, dropdowns, and visual feedback.
 
-## 🛠️ Installation
+---
 
-1. **Clone the repository**:
-```bash
-   git clone https://github.com/Gaush619/HeavyVehicleCBM
-   cd HeavyVehicleCBM
+## Installation 🛠️
 
-
-2. **bash**
-```bash
-Copy code
-pip install -r requirements.txt
-
-
-2. **bash**
-```bash
-Copy code
-pip install -r requirements.txt
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/predictive-maintenance-dashboard.git
+   cd predictive-maintenance-dashboard
