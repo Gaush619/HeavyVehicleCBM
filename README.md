@@ -19,5 +19,15 @@ This repository contains a **Streamlit-based Predictive Maintenance Dashboard** 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/predictive-maintenance-dashboard.git
-   cd predictive-maintenance-dashboard
+   git clone https://github.com/Gaush619/HeavyVehicleCBM
+   cd HeavyVehicleCBM
+
+   
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
